@@ -3,6 +3,7 @@ package main
 import (
 	"./addtwoint"
 	"./divtwoint"
+	"./evenintoroddint"
 	"./multitwoint"
 	"./subtwoint"
 	"fmt"
@@ -49,5 +50,13 @@ func main() {
 	myDivTwoInt := divtwoint.DivTwoInt(100, -50)
 	fmt.Printf("Variable name: myDivTwoInt is ")
 	fmt.Println(myDivTwoInt)
+	fmt.Println()
+
+	// package: evenintoroddint
+	fmt.Println("Example: package name: evenintoroddint, function name: EvenIntOrOddInt")
+	evenintoroddint.EvenIntOrOddInt(10)
+	evenintoroddint.EvenIntOrOddInt(11)
+	evenintoroddint.EvenIntOrOddInt(-10)
+	evenintoroddint.EvenIntOrOddInt(-11)
 	fmt.Println()
 }
