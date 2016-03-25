@@ -2,6 +2,7 @@ package main
 
 import (
 	"./addtwoint"
+	"./divtwoint"
 	"./multitwoint"
 	"./subtwoint"
 	"fmt"
@@ -38,5 +39,15 @@ func main() {
 	myMultiTwoInt := multitwoint.MultiTwoInt(300, -400)
 	fmt.Printf("Variable name: mySubTwoInt is ")
 	fmt.Println(myMultiTwoInt)
+	fmt.Println()
+
+	// package: divtwoint
+	fmt.Println("Example: package name: divtwoint, function name: DivTwoInt")
+	fmt.Printf("divtwoint.DivtiTwoInt(3, 4) is %d\n", divtwoint.DivTwoInt(10, 5))
+
+	// Assignment
+	myDivTwoInt := divtwoint.DivTwoInt(100, -50)
+	fmt.Printf("Variable name: myDivTwoInt is ")
+	fmt.Println(myDivTwoInt)
 	fmt.Println()
 }
